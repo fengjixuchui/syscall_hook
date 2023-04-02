@@ -1,9 +1,17 @@
-# Kbuild stuff
-*.o
-*.ko
-*.mod.c
-.*.cmd
-.tmp_versions/
-Module.symvers
-modules.order
-.vscode
+/src/*.cmd
+/src/*.o
+/*.cmd.*
+/*.o
+/*.cmd
+/*.o.d
+/.depend 
+/*.ko
+/*.ko.*
+/*.mod
+/*.mod.c
+/.tmp_versions
+/.*.o.d 
+/Module.symvers 
+/modules.order
+/.cache
+/compile_commands.json
